@@ -2,7 +2,7 @@
 
 Este repositório contém meu segundo projeto de desenvolvimento web, um testemunho da minha contínua evolução e aprendizado nesta área empolgante.
 
-![Projeto](Contatos.png)
+![Projeto](images/Lista-de-contatos.png)
 
 ## Estrutura do Projeto
 
