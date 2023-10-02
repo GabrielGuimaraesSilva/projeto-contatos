@@ -22,6 +22,7 @@ O projeto é composto pelos seguintes arquivos e diretórios:
 ## Como Visualizar o Site
 
 Para visualizar o site, basta abrir o arquivo `index.html` em qualquer navegador web moderno.
+Ou acessar: https://gabriel-guimaraes-projeto-contatos.vercel.app/
 
 ## Minha Evolução
 
