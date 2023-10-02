@@ -1,4 +1,7 @@
 const form = document.getElementById('form-contatos')
+const corpoTabela = document.querySelector('tbody');
+
+var linhas = '';
 
 form.addEventListener('submit', function (e) {
 
@@ -6,6 +9,17 @@ form.addEventListener('submit', function (e) {
 
     const nomeContato = document.getElementById('nome-contato')
     const numeroContato = document.getElementById('numero-contato')
+    var linha = '<tr>';
 
-    alert(`O nome do Contato é ${nomeContato.value} e o número dele é ${numeroContato.value}`)
+    linha += `<td>${nomeContato.value}</td>`;
+    linha += `<td>${numeroContato.value}</td>`;
+    linha += '</tr>';
+
+    linhas += linha
+
+    corpoTabela.innerHTML = linhas;
+
+    nomeContato.value = '';
+    numeroContato.value = '';
+
 })
